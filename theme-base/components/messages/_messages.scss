@@ -27,6 +27,7 @@ body {
       .ui-messages-error-detail,
       .ui-messages-fatal-detail {
         margin: 0;
+        overflow-wrap: break-word;
       }
     }
 
