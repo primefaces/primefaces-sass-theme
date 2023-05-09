@@ -10,24 +10,6 @@ body {
       .ui-button {
         margin-right: $inlineSpacing;
 
-        &.ui-fileupload-choose {
-          .ui-icon {
-            @include icon_override ("\e90d");
-          }
-        }
-
-        &.ui-fileupload-upload {
-          .ui-icon {
-            @include icon_override ("\e934");
-          }
-        }
-
-        &.ui-fileupload-cancel {
-          .ui-icon {
-            @include icon_override ("\e90b");
-          }
-        }
-
         &.ui-state-disabled {
           &:not(.ui-fileupload-choose) {
             display: none;
