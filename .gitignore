@@ -1,2 +1,20 @@
 theme.css
 .DS_STORE
+target/
+
+# IDE Files
+*.ctxt
+.idea
+.classpath
+.settings
+.project
+.checkstyle
+.tern-project
+*.?ar
+*.iml
+*.ipr
+*.iws
+*.NavData
+*.navData
+/nbproject/
+
