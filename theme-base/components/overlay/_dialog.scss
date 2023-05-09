@@ -131,11 +131,15 @@ body {
             }
 
             &.ui-messages-info-icon {
-              @include icon_override("\e922");
+              @include icon_override("\e924");
             }
 
             &.ui-messages-error-icon {
               @include icon_override("\e90c");
+            }
+
+            &.ui-messages-fatal-icon {
+              @include icon_override("\e910");
             }
           }
         }
