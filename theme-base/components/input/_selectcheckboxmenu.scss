@@ -169,6 +169,15 @@ body {
     .ui-selectcheckboxmenu-items {
       padding: $inputListPadding;
 
+      &.ui-selectcheckboxmenu-table {
+        > thead tr th {
+          background: $panelHeaderBg;
+          border: $datatableHeaderCellBorder;
+          color: $panelHeaderTextColor;
+          font-weight: $panelHeaderFontWeight;
+        }
+      }
+
       .ui-selectcheckboxmenu-item {
         padding: $inputListItemPadding;
         margin: $inputListItemMargin;
@@ -199,6 +208,20 @@ body {
           display: inline;
           padding-left: 0;
           vertical-align: middle;
+        }
+
+        &.ui-selectcheckboxmenu-row {
+          background: $datatableBodyRowBg;
+          color: $datatableBodyRowTextColor;
+          border: $datatableBodyRowBorder;
+
+          > td {
+            padding: $datatableBodyCellPadding;
+          }
+
+          &:first-child {
+            border-top-color: transparent;
+          }
         }
       }
 
