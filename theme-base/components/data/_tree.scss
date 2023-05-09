@@ -87,7 +87,8 @@ body {
             }
           }
 
-          &.ui-treenode-selectable:not(.ui-state-highlight):hover {
+          &.ui-tree-selectable:not(.ui-state-highlight):hover,
+          &.ui-tree-selectable:not(.ui-state-highlight).ui-state-hover {
             background: $inputListItemHoverBg;
             color: $inputListItemTextHoverColor;
           }
