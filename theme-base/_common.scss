@@ -48,13 +48,13 @@ body {
         position: absolute;
     }
 
-    .ui-resizable {
-        display: flex;
-        flex-direction: column;
+}
 
-        .ui-widget-content {
-            flex-grow: 1;
-        }
+.ui-resizable {
+    display: flex;
+    flex-direction: column;
+
+    .ui-widget-content {
+        flex-grow: 1;
     }
-
 }
