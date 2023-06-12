@@ -11,7 +11,7 @@ body {
       }
 
       a {
-        @include icon_override("\e90c");
+        @include icon-override("\e90c");
         text-indent: 0;
         transition: $transition;
         display: block;
@@ -38,7 +38,7 @@ body {
       }
 
       a {
-        @include icon_override("\e937");
+        @include icon-override("\e937");
         text-indent: 0;
         display: block;
         font-size: $ratingIconFontSize;
@@ -55,7 +55,7 @@ body {
 
     .ui-rating-star-on {
       a {
-        @include icon_override("\e936");
+        @include icon-override("\e936");
         display: block;
         font-size: $ratingIconFontSize;
         height: $ratingIconHeight;

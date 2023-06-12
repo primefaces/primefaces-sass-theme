@@ -17,14 +17,14 @@ body {
 
     .ui-inplace-save {
       .ui-icon {
-        @include icon_override("\e909");
+        @include icon-override("\e909");
       }
     }
 
     .ui-inplace-cancel {
       margin-left: math.div($inlineSpacing, 2);
       .ui-icon {
-        @include icon_override("\e90b");
+        @include icon-override("\e90b");
       }
     }
 

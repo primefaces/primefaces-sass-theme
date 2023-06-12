@@ -51,11 +51,11 @@ body {
         margin-top: math.div(-1 * $iconSize, 2);
 
         &.ui-icon-check {
-          @include icon_override("\e909");
+          @include icon-override("\e909");
         }
 
         &.ui-icon-closethick {
-          @include icon_override("\e90b");
+          @include icon-override("\e90b");
         }
       }
     }

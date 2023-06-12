@@ -19,7 +19,7 @@ body {
         @include action-icon();
 
         .ui-icon {
-          @include icon_override("\e90b");
+          @include icon-override("\e90b");
         }
       }
     }
@@ -32,7 +32,7 @@ body {
       padding: 0;
 
       .ui-lightbox-nav-left {
-        @include icon_override("\e900");
+        @include icon-override("\e900");
         transition: all $transitionDuration;
         font-size: 24px;
         margin-left: 4px;
@@ -48,7 +48,7 @@ body {
       }
 
       .ui-lightbox-nav-right {
-        @include icon_override("\e901");
+        @include icon-override("\e901");
         transition: all $transitionDuration;
         font-size: 24px;
         margin-right: 4px;

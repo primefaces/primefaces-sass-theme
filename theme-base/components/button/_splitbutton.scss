@@ -31,7 +31,7 @@ body {
       border-bottom-right-radius: $borderRadius;
 
       .ui-icon.ui-icon-triangle-1-s {
-        @include icon_override("\e902");
+        @include icon-override("\e902");
       }
     }
   }
@@ -51,7 +51,7 @@ body {
       }
 
       .ui-icon {
-        @include icon_override("\e908");
+        @include icon-override("\e908");
         position: absolute;
         left: nth($inputListHeaderPadding, 2) + nth($inputPadding, 2);
         top: 50%;

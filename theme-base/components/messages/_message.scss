@@ -11,7 +11,7 @@ body {
       color: $infoMessageTextColor;
 
       .ui-message-info-icon {
-        @include icon_override("\e924");
+        @include icon-override("\e924");
         margin: 0;
         color: $infoMessageIconColor;
         float: none;
@@ -33,7 +33,7 @@ body {
       color: $warnMessageTextColor;
 
       .ui-message-warn-icon {
-        @include icon_override("\e922");
+        @include icon-override("\e922");
         margin: 0;
         color: $warnMessageIconColor;
         float: none;
@@ -55,7 +55,7 @@ body {
       color: $errorMessageTextColor;
 
       .ui-message-error-icon {
-        @include icon_override("\e90c");
+        @include icon-override("\e90c");
         margin: 0;
         color: $errorMessageIconColor;
         float: none;

@@ -22,7 +22,7 @@ body {
         border-top-right-radius: $borderRadius;
 
         .ui-icon-triangle-1-n {
-          @include icon_override ("\e933");
+          @include icon-override ("\e933");
         }
       }
 
@@ -30,7 +30,7 @@ body {
         border-bottom-right-radius: $borderRadius;
 
         .ui-icon-triangle-1-s {
-          @include icon_override ("\e930");
+          @include icon-override ("\e930");
         }
       }
     }

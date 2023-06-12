@@ -8,7 +8,7 @@ body {
       box-shadow: $overlayContainerShadow;
 
       .ui-icon-closethick {
-        @include icon_override("\e90b");
+        @include icon-override("\e90b");
         position: absolute;
         top: .5rem;
         right: .5rem;
@@ -26,7 +26,7 @@ body {
         border-width: $messagesBorderWidth;
 
         .ui-growl-image {
-          @include icon_override("\e924");
+          @include icon-override("\e924");
           font-size: $growlIconFontSize;
           color: $infoMessageIconColor;
         }
@@ -43,7 +43,7 @@ body {
         border-width: $messagesBorderWidth;
 
         .ui-growl-image {
-          @include icon_override("\e922");
+          @include icon-override("\e922");
           font-size: $growlIconFontSize;
           color: $warnMessageIconColor;
         }
@@ -60,7 +60,7 @@ body {
         border-width: $messagesBorderWidth;
 
         .ui-growl-image {
-          @include icon_override("\e90c");
+          @include icon-override("\e90c");
           font-size: $growlIconFontSize;
           color: $errorMessageIconColor;
         }

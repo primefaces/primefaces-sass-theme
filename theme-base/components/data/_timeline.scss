@@ -9,19 +9,19 @@ body {
 
       .ui-icon {
         &.ui-icon-circle-zoomin {
-          @include icon_override("\e98f");
+          @include icon-override("\e98f");
         }
 
         &.ui-icon-circle-zoomout {
-          @include icon_override("\e990");
+          @include icon-override("\e990");
         }
 
         &.ui-icon-circle-arrow-w {
-          @include icon_override("\e91f");
+          @include icon-override("\e91f");
         }
 
         &.ui-icon-circle-arrow-e {
-          @include icon_override("\e920");
+          @include icon-override("\e920");
         }
       }
     }

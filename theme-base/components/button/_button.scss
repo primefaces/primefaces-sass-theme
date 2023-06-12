@@ -155,7 +155,7 @@ body {
     }
 
     .ui-icon-triangle-1-s {
-      @include icon_override("\e902");
+      @include icon-override("\e902");
     }
   }
 

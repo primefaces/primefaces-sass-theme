@@ -29,12 +29,12 @@ body {
       margin: $galleriaItemNavigatorMargin;
 
       .ui-galleria-item-prev-icon {
-        @include icon_override("\e900");
+        @include icon-override("\e900");
         font-size: $galleriaItemNavigatorFontSize;
       }
 
       .ui-galleria-item-next-icon {
-        @include icon_override("\e901");
+        @include icon-override("\e901");
         font-size: $galleriaItemNavigatorFontSize;
       }
 
@@ -134,19 +134,19 @@ body {
         }
 
         .ui-icon-circle-triangle-e {
-          @include icon_override("\e901");
+          @include icon-override("\e901");
         }
 
         .ui-icon-circle-triangle-s {
-          @include icon_override("\e902");
+          @include icon-override("\e902");
         }
 
         .ui-icon-circle-triangle-w {
-          @include icon_override("\e900");
+          @include icon-override("\e900");
         }
 
         .ui-icon-circle-triangle-n {
-          @include icon_override("\e903");
+          @include icon-override("\e903");
         }
       }
 

@@ -19,11 +19,11 @@ body {
           }
 
           .ui-icon-triangle-1-e {
-            @include icon_override("\e901");
+            @include icon-override("\e901");
           }
 
           .ui-icon-triangle-1-s {
-            @include icon_override("\e902");
+            @include icon-override("\e902");
           }
 
           h3 {
@@ -106,14 +106,14 @@ body {
           }
 
           .ui-icon-triangle-1-e:last-child {
-            @include icon_override("\e932");
+            @include icon-override("\e932");
             position: relative;
             margin-right: math.div(-1 * $iconSize, 2);
             color: $menuitemIconColor;
           }
 
           .ui-icon-triangle-1-s:last-child {
-            @include icon_override("\e930");
+            @include icon-override("\e930");
             margin-right: math.div(-1 * $iconSize, 2);
             color: $menuitemIconColor;
           }
@@ -215,7 +215,7 @@ body {
         .ui-icon-triangle-1-w {
           position: relative;
           top: 2px;
-          @include icon_override("\e931");
+          @include icon-override("\e931");
           margin-right: $inlineSpacing;
         }
       }

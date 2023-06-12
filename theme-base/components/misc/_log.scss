@@ -22,27 +22,27 @@ body {
         @include action-icon();
 
         .ui-icon-trash {
-          @include icon_override("\e93d");
+          @include icon-override("\e93d");
         }
 
         .ui-icon-note {
-          @include icon_override("\e9a8");
+          @include icon-override("\e9a8");
         }
 
         .ui-icon-info {
-          @include icon_override("\e924");
+          @include icon-override("\e924");
         }
 
         .ui-icon-notice {
-          @include icon_override("\e989");
+          @include icon-override("\e989");
         }
 
         .ui-icon-search {
-          @include icon_override("\e908");
+          @include icon-override("\e908");
         }
 
         .ui-icon-alert {
-          @include icon_override("\e922");
+          @include icon-override("\e922");
         }
       }
     }
