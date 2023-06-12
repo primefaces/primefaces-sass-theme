@@ -59,7 +59,7 @@ body {
       }
 
       .ui-icon {
-        @include icon_override("\e908");
+        @include icon-override("\e908");
         position: absolute;
         left: nth($inputPadding, 2);
         top: 50%;

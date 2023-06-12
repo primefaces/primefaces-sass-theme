@@ -23,11 +23,11 @@ body {
       }
 
       .ui-icon-minusthick {
-        @include icon_override("\e90f");
+        @include icon-override("\e90f");
       }
 
       .ui-icon-plusthick {
-        @include icon_override("\e90d");
+        @include icon-override("\e90d");
       }
 
       &.ui-state-hover {

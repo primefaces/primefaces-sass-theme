@@ -40,7 +40,7 @@ body {
             &.ui-icon-close {
               margin: 0;
               float: none;
-              @include icon_override("\e90b");
+              @include icon-override("\e90b");
               margin-left: $inlineSpacing;
             }
           }
@@ -284,7 +284,7 @@ body {
 
           .ui-icon {
             margin: 0;
-            @include icon_override("\e900");
+            @include icon-override("\e900");
           }
         }
 
@@ -294,7 +294,7 @@ body {
 
           .ui-icon {
             margin: 0;
-            @include icon_override("\e901");
+            @include icon-override("\e901");
           }
         }
 

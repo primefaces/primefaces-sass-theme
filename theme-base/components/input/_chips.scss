@@ -17,7 +17,7 @@ body {
         .ui-chips-token-icon {
           margin-top: math.div(-1 * $iconSize, 2);
           position: absolute;
-          @include icon_override("\e90c");
+          @include icon-override("\e90c");
         }
       }
 

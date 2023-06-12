@@ -28,7 +28,7 @@ body {
 
       .ui-fileupload-cancel {
         .ui-icon {
-          @include icon_override ("\e90b");
+          @include icon-override ("\e90b");
         }
       }
 
@@ -42,7 +42,7 @@ body {
 
   .ui-fileupload-simple {
     .ui-icon-plusthick {
-      @include icon_override ("\e90d");
+      @include icon-override ("\e90d");
     }
   }
 

@@ -25,7 +25,7 @@ body {
       }
 
       &.ui-breadcrumb-chevron {
-        @include icon_override("\e901");
+        @include icon-override("\e901");
         margin: 0 $inlineSpacing 0 $inlineSpacing;
         color: $breadcrumbSeparatorColor;
       }
@@ -45,7 +45,7 @@ body {
         }
 
         a.ui-icon-home {
-          @include icon_override("\e925");
+          @include icon-override("\e925");
           color: $breadcrumbItemIconColor;
           margin: 0;
 

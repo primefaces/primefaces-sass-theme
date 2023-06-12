@@ -46,11 +46,11 @@ body {
         margin-right: $inlineSpacing;
 
         &.ui-icon-triangle-1-e {
-          @include icon_override("\e901");
+          @include icon-override("\e901");
         }
 
         &.ui-icon-triangle-1-s {
-          @include icon_override("\e902");
+          @include icon-override("\e902");
         }
       }
 
@@ -116,11 +116,11 @@ body {
 
           &.ui-panelmenu-icon {
             &.ui-icon-triangle-1-e {
-              @include icon_override("\e932");
+              @include icon-override("\e932");
             }
 
             &.ui-icon-triangle-1-s {
-              @include icon_override("\e930");
+              @include icon-override("\e930");
             }
           }
         }

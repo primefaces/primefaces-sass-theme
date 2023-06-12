@@ -75,11 +75,11 @@ body {
         margin: 0 $inlineSpacing 0 0;
 
         &.ui-icon-triangle-1-e {
-          @include icon_override("\e901");
+          @include icon-override("\e901");
         }
 
         &.ui-icon-triangle-1-s {
-          @include icon_override("\e902");
+          @include icon-override("\e902");
         }
       }
 
@@ -90,19 +90,19 @@ body {
         margin-bottom: math.div(-1 * $actionIconHeight, 4);
 
         .ui-icon-closethick {
-          @include icon_override("\e90b");
+          @include icon-override("\e90b");
         }
 
         .ui-icon-minusthick {
-          @include icon_override("\e90f");
+          @include icon-override("\e90f");
         }
 
         .ui-icon-plusthick {
-          @include icon_override("\e90d");
+          @include icon-override("\e90d");
         }
 
         .ui-icon-gear {
-          @include icon_override("\e94a");
+          @include icon-override("\e94a");
         }
       }
     }

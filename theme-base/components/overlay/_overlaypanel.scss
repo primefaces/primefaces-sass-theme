@@ -31,7 +31,7 @@ body {
       }
 
       .ui-icon {
-        @include icon_override("\e90b");
+        @include icon-override("\e90b");
         display: inline-block;
         line-height: inherit;
       }

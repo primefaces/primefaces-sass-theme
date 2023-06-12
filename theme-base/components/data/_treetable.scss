@@ -60,17 +60,17 @@ body {
           margin: 0 0 0 $inlineSpacing;
 
           &.ui-icon-carat-2-n-s {
-            @include icon_override('\e99e');
+            @include icon-override('\e99e');
             vertical-align: middle;
           }
 
           &.ui-icon-triangle-1-n {
-            @include icon_override('\e99f');
+            @include icon-override('\e99f');
             vertical-align: middle;
           }
 
           &.ui-icon-triangle-1-s {
-            @include icon_override('\e9a0');
+            @include icon-override('\e9a0');
             vertical-align: middle;
           }
         }
@@ -127,11 +127,11 @@ body {
             @include action-icon();
 
             &.ui-icon-triangle-1-e {
-              @include icon_override("\e901");
+              @include icon-override("\e901");
             }
 
             &.ui-icon-triangle-1-s {
-              @include icon_override("\e902");
+              @include icon-override("\e902");
             }
           }
 
@@ -140,7 +140,7 @@ body {
             margin-right: $inlineSpacing * 2;
 
             .ui-icon-minus {
-              @include icon_override("\e90f");
+              @include icon-override("\e90f");
               color: $panelContentTextColor;
             }
           }
@@ -170,16 +170,16 @@ body {
             @include action-icon();
 
             &.ui-icon-pencil {
-              @include icon_override('\e942');
+              @include icon-override('\e942');
             }
 
             &.ui-icon-check {
-              @include icon_override('\e909');
+              @include icon-override('\e909');
               margin-right: $inlineSpacing;
             }
 
             &.ui-icon-close {
-              @include icon_override('\e90b');
+              @include icon-override('\e90b');
             }
           }
 

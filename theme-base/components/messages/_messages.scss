@@ -40,7 +40,7 @@ body {
       transition: background-color $transitionDuration;
 
       .ui-icon-close {
-        @include icon_override("\e90b");
+        @include icon-override("\e90b");
       }
     }
 
@@ -51,7 +51,7 @@ body {
       color: $infoMessageTextColor;
 
       .ui-messages-info-icon {
-        @include icon_override("\e924");
+        @include icon-override("\e924");
         font-size: $messagesIconFontSize;
         margin: 0 $inlineSpacing 0 0;
         color: $infoMessageIconColor;
@@ -74,7 +74,7 @@ body {
       color: $warnMessageTextColor;
 
       .ui-messages-warn-icon {
-        @include icon_override("\e922");
+        @include icon-override("\e922");
         font-size: $messagesIconFontSize;
         margin: 0 $inlineSpacing 0 0;
         color: $warnMessageIconColor;
@@ -98,7 +98,7 @@ body {
 
       .ui-messages-error-icon,
       .ui-messages-fatal {
-        @include icon_override("\e90c");
+        @include icon-override("\e90c");
         font-size: $messagesIconFontSize;
         margin: 0 $inlineSpacing 0 0;
         color: $errorMessageIconColor;

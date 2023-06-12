@@ -55,7 +55,7 @@ body {
         .ui-autocomplete-token-icon {
           margin-top: math.div(-1 * $iconSize, 2);
           position: absolute;
-          @include icon_override("\e90b");
+          @include icon-override("\e90b");
         }
       }
 

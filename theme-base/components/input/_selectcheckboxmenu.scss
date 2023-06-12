@@ -38,7 +38,7 @@ body {
         position: static;
         margin: 0;
         color: $inputIconColor;
-        @include icon_override("\e902");
+        @include icon-override("\e902");
       }
     }
 
@@ -74,7 +74,7 @@ body {
         .ui-selectcheckboxmenu-token-icon {
           margin-top: math.div(-1 * $iconSize, 2);
           position: absolute;
-          @include icon_override("\e90b");
+          @include icon-override("\e90b");
         }
       }
 
@@ -142,7 +142,7 @@ body {
         }
 
         .ui-icon {
-          @include icon_override("\e908");
+          @include icon-override("\e908");
           position: absolute;
           left: nth($inputPadding, 2);
           top: 50%;
@@ -160,7 +160,7 @@ body {
         margin-right: 0;
 
         .ui-icon {
-          @include icon_override("\e90b");
+          @include icon-override("\e90b");
           float: none;
         }
       }
