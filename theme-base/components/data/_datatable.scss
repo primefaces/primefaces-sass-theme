@@ -422,7 +422,8 @@ body {
     .ui-columntoggler-items {
       padding: $inputListPadding;
 
-      .ui-columntoggler-item {
+      .ui-columntoggler-item,
+      .ui-columntoggler-all {
         padding: $inputListItemPadding;
         margin: $inputListItemMargin;
         border: $inputListItemBorder;
@@ -441,6 +442,14 @@ body {
           padding: 0;
           display: inline;
         }
+      }
+
+      .ui-columntoggler-all {
+        border-bottom: $datatableBodyRowBorder;
+        background: $panelHeaderBg;
+        color: $panelHeaderTextColor;
+        padding: $panelHeaderPadding;
+        font-weight: $panelHeaderFontWeight;
       }
     }
   }
