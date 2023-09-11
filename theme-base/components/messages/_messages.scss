@@ -32,9 +32,9 @@ body {
     }
 
     .ui-messages-close {
-      position: absolute;
-      right: math.div(-1 * $actionIconWidth, 2);
-      top: math.div(-1 * $actionIconHeight, 2);
+      position: relative;
+      right: -1 * $actionIconWidth;
+      top: -1 * $actionIconHeight;
       @include action-icon();
       text-align: center;
       transition: background-color $transitionDuration;
