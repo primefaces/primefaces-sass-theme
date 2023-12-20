@@ -7,12 +7,15 @@ body {
       margin: 0;
       border-top-left-radius: $borderRadius;
       border-bottom-left-radius: $borderRadius;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
 
       &.ui-state-focus {
         z-index: 1;
       }
+    }
+
+    .ui-button:last-child {
+      border-top-right-radius: $borderRadius;
+      border-bottom-right-radius: $borderRadius;
     }
 
     .ui-splitbuttonmenu {
