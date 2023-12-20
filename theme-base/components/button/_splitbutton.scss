@@ -5,6 +5,7 @@ body {
     .ui-button:first-child {
       position: relative;
       margin: 0;
+      border-radius: 0;
       border-top-left-radius: $borderRadius;
       border-bottom-left-radius: $borderRadius;
 
