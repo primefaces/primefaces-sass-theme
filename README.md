@@ -32,6 +32,14 @@ They will compile the CSS files and copy the resulting CSS files to the correct 
 
 ### Shell
 
+**Unix:**
+
 ```shell
 ./build.sh
+```
+
+**Windows:**
+
+```shell
+./build.bat
 ```
