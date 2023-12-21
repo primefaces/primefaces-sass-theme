@@ -39,5 +39,5 @@ They will compile the CSS files and copy the resulting CSS files to the correct 
 ### Windows
 
 ```shell
-./build.bat
+build.bat
 ```
