@@ -30,15 +30,13 @@ Usually you want to update the CSS files in the PrimeFaces repository, located i
 These scripts asume that the PrimeFaces repository is located next to this repository, so at `../primefaces`.
 They will compile the CSS files and copy the resulting CSS files to the correct resources folders.
 
-### Shell
-
-**Unix:**
+### Unix
 
 ```shell
 ./build.sh
 ```
 
-**Windows:**
+### Windows
 
 ```shell
 ./build.bat
