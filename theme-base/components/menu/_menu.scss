@@ -18,6 +18,10 @@ body {
             margin-right: $inlineSpacing;
           }
 
+          .ui-icon-triangle-1-w {
+            @include icon-override("\e901");
+          }
+
           .ui-icon-triangle-1-e {
             @include icon-override("\e901");
           }
@@ -29,6 +33,51 @@ body {
           h3 {
             font-size: $fontSize;
             padding-left: 0;
+          }
+        }
+      }
+    }
+
+    &.ui-menu-rtl {
+      text-align: end;
+  
+      &.ui-menu-toggleable {
+        .ui-menu-list {
+          .ui-widget-header {
+            .ui-icon {
+              margin-right: 0;
+              margin-left: $inlineSpacing;
+            }
+          }
+        }
+      }
+
+      &.ui-menubar {
+        >.ui-menu-list {
+          >.ui-menuitem {
+
+            >.ui-menuitem-link {
+              .ui-icon-triangle-1-s:first-child {
+                margin-right: $inlineSpacing;
+                vertical-align: middle;
+              }
+            }
+    
+            &.ui-menubar-options {
+              float: left;
+              margin-left: $inlineSpacing;
+            }
+          }
+        }
+      }
+  
+      .ui-menu-list {
+        .ui-menuitem {
+          .ui-menuitem-link {
+            .ui-menuitem-icon {
+              margin-right: 0;
+              margin-left: $inlineSpacing;
+            }
           }
         }
       }
@@ -105,16 +154,33 @@ body {
             color: $menuitemTextColor;
           }
 
+          .ui-icon-triangle-1-w:first-child {
+            @include icon-override("\e931");
+            position: relative;
+            margin-left: math.div(-1 * $iconSize, 2);
+            color: $menuitemIconColor;
+            float: left;
+            display: block;
+          }
+
           .ui-icon-triangle-1-e:last-child {
             @include icon-override("\e932");
             position: relative;
             margin-right: math.div(-1 * $iconSize, 2);
             color: $menuitemIconColor;
+            float: right;
+            display: block;
           }
 
           .ui-icon-triangle-1-s:last-child {
             @include icon-override("\e930");
             margin-right: math.div(-1 * $iconSize, 2);
+            color: $menuitemIconColor;
+          }
+
+          .ui-icon-triangle-1-s:first-child {
+            @include icon-override("\e930");
+            margin-left: math.div(-1 * $iconSize, 2);
             color: $menuitemIconColor;
           }
         }
