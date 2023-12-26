@@ -162,7 +162,29 @@ body {
 
       .ui-treenode:before {
         background-color: $panelContentBg;
-      } 
+      }
+
+      &.ui-tree-rtl {
+        .ui-treenode-content {
+          .ui-tree-toggler {
+            margin-right: 0;
+            margin-left: $inlineSpacing;
+          }
+    
+          .ui-treenode-leaf-icon {
+            margin: 0 0 0 $inlineSpacing;
+          }
+    
+          .ui-treenode-icon {
+            margin: 0 0 0 $inlineSpacing;
+          }
+    
+          .ui-chkbox {
+            margin-right: 0;
+            margin-left: $inlineSpacing + 2;
+          }
+        }
+      }
     }
 
     .ui-tree-filter-container {
