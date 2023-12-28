@@ -4,8 +4,8 @@ body {
     position: static;
 
     .ui-tabmenu-nav {
-      margin: 0;
-      padding: 0;
+      margin: -.5rem 0 0 0;
+      padding: .5rem 0 0 0; /* allow space for menu item badge */
       background: $tabsNavBg;
       @include flex();
       @include flex-wrap(nowrap);
