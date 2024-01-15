@@ -11,7 +11,10 @@ body {
     .ui-selectonemenu-label {
       background: transparent;
       padding-right: $buttonIconOnlyWidth;
-      /*min-height: calc(#{(nth($inputPadding, 1) * 4)} + 3px);*/
+      
+      &.ui-selectonemenu-label-placeholder {
+        color:  $inputPlaceholderTextColor;
+      }
     }
 
     .ui-selectonemenu-trigger {
