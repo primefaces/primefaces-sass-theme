@@ -62,8 +62,14 @@ body {
                 vertical-align: middle;
               }
             }
-    
-            &.ui-menubar-options {
+
+            &.ui-menubar-start {
+              float: right;
+              margin-right: $inlineSpacing;
+            }
+
+            &.ui-menubar-options,
+            &.ui-menubar-end {
               float: left;
               margin-left: $inlineSpacing;
             }
@@ -260,7 +266,13 @@ body {
             }
           }
 
-          &.ui-menubar-options {
+          &.ui-menubar-start {
+            float: left;
+            margin-left: $inlineSpacing;
+          }
+
+          &.ui-menubar-options,
+          &.ui-menubar-end {
             float: right;
             margin-right: $inlineSpacing;
           }
