@@ -17,5 +17,29 @@ body {
       color: $textColor;
       line-height: $progressBarHeight;
     }
+
+    &.ui-progressbar-success {
+      .ui-progressbar-value {
+        background: $successButtonBg;
+      }
+    }
+
+    &.ui-progressbar-info {
+      .ui-progressbar-value {
+        background: $infoButtonBg;
+      }
+    }
+
+    &.ui-progressbar-warning {
+      .ui-progressbar-value {
+        background: $warningButtonBg;
+      }
+    }
+
+    &.ui-progressbar-danger {
+      .ui-progressbar-value {
+        background: $dangerButtonBg;
+      }
+    }
   }
 }
