@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.primefaces</groupId>
     <artifactId>primefaces-sass-theme</artifactId>
-    <version>13.0.0</version>
+    <version>14.0.0</version>
     <packaging>jar</packaging>
 	
     <name>primefaces-sass-theme</name>
