@@ -48,23 +48,24 @@ body {
         position: absolute;
     }
 
-    select, input {
-      color: $inputTextColor;
-      background: $inputBg;
-      padding: $inputPadding;
-      border: $inputBorder;
-      outline: 0 none;
-      font-size: $inputTextFontSize;
-      border-radius: $borderRadius;
-      transition: $transition;
-    
-      &:focus {
-        @include focused-input();
-      }
+    select,
+    input:not([role="combobox"]):not(.ui-widget) {
+        color: $inputTextColor;
+        background: $inputBg;
+        padding: $inputPadding;
+        border: $inputBorder;
+        outline: 0 none;
+        font-size: $inputTextFontSize;
+        border-radius: $borderRadius;
+        transition: $transition;
 
-      &:hover {
-        border-color: $inputHoverBorderColor;
-      }
+        &:focus {
+            @include focused-input();
+        }
+
+        &:hover {
+            border-color: $inputHoverBorderColor;
+        }
     }
 }
 
