@@ -18,6 +18,22 @@ $messagesBorderWidth: 0 0 0 4px;
 /// @group message
 $messagesFontWeight: 500;
 
+/// Background of an success message
+/// @group message
+$successMessageBg: #c8e6c9;
+
+/// Border of an success message
+/// @group message
+$successMessageBorder: solid #c8e6c9;
+
+/// Text color of an success message
+/// @group message
+$successMessageTextColor: #ffffff;
+
+/// Icon color of an success message
+/// @group message
+$successMessageIconColor: #ffffff;
+
 /// Background of an info message
 /// @group message
 $infoMessageBg: #039BE5;
