@@ -4,6 +4,28 @@ body {
     display: inline-block;
     border-radius: $borderRadius;
 
+    &.ui-message-success {
+      background: $successMessageBg;
+      border: $successMessageBorder;
+      border-width: $messageBorderWidth;
+      color: $successMessageTextColor;
+
+      .ui-message-success-icon {
+        @include icon-override("\e909");
+        margin: 0;
+        color: $successMessageIconColor;
+        float: none;
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 1px;
+      }
+
+      .ui-message-success-detail {
+        margin-left: $inlineSpacing;
+      }
+    }
+
     &.ui-message-info {
       background: $infoMessageBg;
       border: $infoMessageBorder;
@@ -48,7 +70,7 @@ body {
       }
     }
 
-    &.ui-message-error,&.ui-message-fatal {
+    &.ui-message-error {
       background: $errorMessageBg;
       border: $errorMessageBorder;
       border-width: $messageBorderWidth;
@@ -66,6 +88,27 @@ body {
       }
 
       .ui-message-error-detail {
+        margin-left: $inlineSpacing;
+      }
+    }
+
+    &.ui-message-fatal {
+      background: scale-color($errorMessageBg, $lightness: -20%);
+      border: solid scale-color($errorMessageBg, $lightness: -50%);
+      border-width: $messageBorderWidth;
+      color: scale-color($successMessageTextColor, $lightness: -75%);
+
+      .ui-message-fatal-icon {
+        @include icon-override("\e935");
+        margin: 0;
+        color: scale-color($errorMessageIconColor, $lightness: -75%);
+        float: none;
+        width: auto;
+        height: auto;
+        position: relative;
+        top: 1px;
+      }
+      .ui-message-fatal-detail {
         margin-left: $inlineSpacing;
       }
     }
