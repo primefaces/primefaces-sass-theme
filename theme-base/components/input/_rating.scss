@@ -1,5 +1,12 @@
 body {
   .ui-rating {
+  
+    &.ui-state-error {
+       @include invalid-input();
+       border-width: 1px;
+       border-style: solid;
+    }
+  
     .ui-rating-cancel {
       float: none;
       display: inline-block;
