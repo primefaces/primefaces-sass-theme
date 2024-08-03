@@ -1,3 +1,3 @@
 # DEPRECATED
 
-its not directly inside the PrimeFaces main repo: https://github.com/primefaces/primefaces/tree/master/primefaces-themes
+its now directly inside the PrimeFaces main repo: https://github.com/primefaces/primefaces/tree/master/primefaces-themes
