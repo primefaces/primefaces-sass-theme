@@ -73,7 +73,7 @@ body {
         text-align: center;
 
         > a {
-          &:hover {
+          &:hover, &.ui-state-hover {
             background: $calendarCellDateHoverBg;
             border-color: $calendarCellDateHoverBorderColor;
           }
@@ -106,7 +106,7 @@ body {
         &.ui-datepicker-today,
         &.ui-datepicker-current-day {
           > a {
-            &:hover {
+            &:hover, &.ui-state-hover {
               background: $calendarCellDateHoverBg;
               border-color: $calendarCellDateHoverBorderColor;
             }
@@ -167,7 +167,7 @@ body {
         appearance: none;
         width: auto;
 
-        &:hover {
+        &:hover, &.ui-state-hover {
           border-color: $inputHoverBorderColor;
         }
 
@@ -213,7 +213,7 @@ body {
       padding: $calendarCellPadding;
       border: $borderRadius;
 
-      &:hover {
+      &:hover, &.ui-state-hover {
         background: $calendarCellDateHoverBg;
         border-color: $calendarCellDateHoverBorderColor;
       }
